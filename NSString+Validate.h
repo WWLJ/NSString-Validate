@@ -11,7 +11,8 @@
 @interface NSString (Validate)
 - (BOOL)isEmail;
 - (BOOL)isUrl;
-- (BOOL)isMobilePhoneNumber;
+- (BOOL)isMobileNumber;
+- (BOOL)validateIdentityCard;
 - (BOOL)isWordMoreThan:(NSInteger)wordCount;
 - (BOOL)isWordLessThan:(NSInteger)wordCount;
 - (BOOL)isCharMoreThan:(NSInteger)charCount;
